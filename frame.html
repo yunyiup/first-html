@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>框架</title>
+</head>
+<style>
+    .header,
+    .aside,
+    .main,
+    .footer {
+        background-color: coral;
+        border: 2px solid yellow;
+    }
+    .header{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+        margin-right: 30px;
+        padding-left: 20px;
+        padding-top: 50px;
+    }
+
+    .header,
+    .footer {
+        height: 150px;
+    }
+
+    .aside {
+        width: 350px;
+        float: left;
+    }
+
+    .main,
+    .aside {
+        height: 400px;
+    }
+    .absolute-div{
+        background-color: teal;
+        border: 1px solid yellow;
+        width: 200px;
+        height: 200px;
+        position:absolute;
+        top:200px;
+        left :500px;
+
+    }
+    body{
+        background-color: crimson;
+    }
+    /* .xxx{
+        background-color: cyan;
+    } */
+</style>
+
+
+<body>
+    <header class="header">头</header>
+    <aside class="aside">边框</aside>
+    <section class="main">内容</section>
+    <footer class="footer">表</foooter>
+    <div class="absolute-div"> absolute position(绝对定位)</div>
+    <!-- <hh class="xxx">xxxxxx</hh> -->
+</body>
+
+</html>
