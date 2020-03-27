@@ -1,0 +1,110 @@
+html {
+    background: #f5f5f5;
+}
+
+body {
+    background: #f5f5f5;
+    max-width: 640Px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.head {
+    background-color: #2bab79;
+    height: 60px;
+}
+
+.plcRouteList {
+    margin-left: 5px;
+    background-color: #f5f5f5;
+}
+
+.pic {
+    border-radius: 50%;
+}
+
+.title {
+    position: absolute;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    top: 0px;
+    left: 20px;
+    white-space: nowrap;
+    line-height: 40px;
+    margin-left: 30px;
+    /* border: 1px solid yellow; */
+}
+
+.bottom {
+    position: absolute;
+    top: 400px;
+    left: 460px;
+}
+
+.bottom2 {
+    position: absolute;
+    top: 780px;
+    left: 460px;
+}
+
+.face {
+    float: left;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 39px;
+    height: 39px;
+}
+
+.day {
+    border-radius: 50%;
+    position: absolute;
+    top: 80px;
+    right: 460px;
+    color: white;
+    /* border: 1px solid white; */
+    background-color: #2bab79;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.day2 {
+    border-radius: 50%;
+    position: absolute;
+    top: 480px;
+    right: 460px;
+    color: white;
+    /* border: 1px solid white; */
+    background-color: #2bab79;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.em{
+    font-style: normal;
+    font-weight: bolder;
+}
+.qui-aside{
+    height: 800px;
+    width: 200px;
+    border: 1px solid yellow;
+    background-color: #2d3741;
+}
+.nav-aside a{
+    font-size: 16px;
+    color: #ce1d51;
+    text-decoration: none;
+
+}
+ul{
+    list-style: none;
+}
