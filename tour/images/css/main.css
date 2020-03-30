@@ -94,17 +94,51 @@ h1 {
     font-weight: bolder;
 }
 .qui-aside{
-    height: 800px;
+    position: absolute;
+    top:23px;
+    left :238px;
+    height: 905px;
     width: 200px;
     border: 1px solid yellow;
     background-color: #2d3741;
 }
-.nav-aside a{
-    font-size: 16px;
-    color: #ce1d51;
-    text-decoration: none;
-
-}
 ul{
     list-style: none;
+}
+
+.nav-aside{
+    padding: 80px 10px;
+}
+/* a去链接下划线 */
+.nav-aside a{   
+    line-height: 44px;
+    font-size: 16px;
+    color: #ced1d5;
+    text-decoration: none;
+    display: block;
+    padding-left: 20px;
+
+}
+/* 链接颜色 */
+.nav-aside a:hover{
+    color:black;
+    background-color: #2bab79;
+}
+.qui-footer{
+    /* border: 1px solid black; */
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    background-color: #ced1d5;
+
+}
+.qui-footer a{
+    text-decoration: none;
+    color: #444;
+    
+    
+}
+.qui-footer span{
+    margin-left: 30px;
+
 }
